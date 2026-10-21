@@ -177,8 +177,7 @@ function Index() {
               Producer
             </h1>
             <hr />
-            <p className="hero-tagline">
-              <br />
+            <p className="hero-tagline" style={{textAlign: "center"}}>
               Helping Brands Create
               High Impact Visual Campaigns.
             </p>
@@ -224,7 +223,7 @@ function Index() {
             <div>
               <h1 style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>WHO AM I?</h1>
               <p className="body-copy">
-                Creative Content Producer &amp; Head of Content with 7+ years of experience leading end to end content
+                Digital Marketer, Creative Content Producer &amp; Head of Content with 7+ years of experience leading end to end content
                 production for fashion, healthcare, e-commerce, and corporate brands. Expert in content strategy,
                 creative direction, video production, and post production supervision. Focused on conversion driven
                 branded content, audience retention, and brand consistency. Experienced in managing international
@@ -239,7 +238,7 @@ function Index() {
           <div className="content-width education-grid">
             <div>
               {/* <p className="section-kicker">am i</p> */}
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>Am I Educated &amp; Continuously Learning Professional ?</h2>
+              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>Am I Educated &amp; Continuously Learning Professional?</h2>
             </div>
             <div className="body-copy education-text">
               <p>
@@ -394,17 +393,30 @@ function Index() {
         </section>
 
         <section className="contact" id="contact">
-          <div className="content-width contact-grid" style={{
-            backgroundImage: `url(${originalMedia.contact})`,
-            backgroundSize: "100% 100%",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
-          }}>
-            <div>
-              <h2 className="section-heading">Let’s Create Something Meaningful Together</h2>
+          <div className="content-width contact-grid">
+            {/* Image column — first visually on desktop, on top on mobile */}
+            <picture className="contact-bg" aria-hidden="true">
+              <source media="(max-width: 600px)" srcSet={originalMedia.contact} />
+              <img
+                src={originalMedia.contact}
+                alt=""
+                loading="lazy"
+                className="contact-photo"
+              />
+            </picture>
+
+            {/* Copy column */}
+            <div className="contact-copy">
+              <h2
+                className="section-heading"
+                style={{ textAlign: "center", color: "oklch(0.88 0.29 137)" }}
+              >
+                Let’s Create Something Meaningful Together
+              </h2>
               <p className="body-copy mt-6">
-                If you’re looking for creative content that combines strong storytelling with strategic thinking, I’d
-                love to hear about your project. Whether it’s a brand campaign, visual production, or digital content
+                If you’re looking for creative content that combines strong storytelling
+                with strategic thinking, I’d love to hear about your project. Whether
+                it’s a brand campaign, visual production, or digital content
                 collaboration let’s turn your ideas into impactful results.
               </p>
               <p className="contact-name">Saad Mehmood</p>
@@ -423,16 +435,9 @@ function Index() {
                   </a>
                 </Button>
               </div>
-              <p className="body-copy">Start a conversation and let’s build something exceptional.</p>
-            </div>
-            <div>
-              {/* <img
-                className="contact-photo"
-                src={originalMedia.contact}
-                alt="Saad Mehmood holding a camera"
-                loading="lazy"
-              /> */}
-
+              <p className="body-copy">
+                Start a conversation and let’s build something exceptional.
+              </p>
             </div>
           </div>
         </section>
@@ -449,7 +454,7 @@ function Index() {
                 className="inline-block w-16 h-8 object-contain align-middle"
               />
             </a>
-            </span>
+          </span>
         </div>
       </footer>
 

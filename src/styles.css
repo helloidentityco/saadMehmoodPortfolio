@@ -431,7 +431,11 @@
   justify-content: flex-end;
   min-height: 460px;
   padding: var(--sp-10);
-  margin: 0 5%;
+  /* margin: 0 5%; */
+  /* Added  */
+  margin: var(--sp-10) auto;
+  width: min(var(--content-max), 88%);
+  /* Modif  Ends*/
   border-radius: 20px;
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-shadow);
@@ -688,6 +692,9 @@
 /* ==========================================================================
    13. CONTACT
    ========================================================================== */
+/* ==========================================================================
+   13. CONTACT
+   ========================================================================== */
 .contact {
   position: relative;
   overflow: hidden;
@@ -698,13 +705,11 @@
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
+  /* Desktop: image LEFT (0.7fr) | copy RIGHT (1.3fr) */
+  grid-template-columns: 0.7fr 1.3fr;
   gap: 70px;
   align-items: center;
   padding: var(--sp-12);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border: 1px solid var(--glass-border);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
@@ -712,20 +717,45 @@
   box-shadow: var(--glass-shadow);
 }
 
-.contact h2 {
+/* Image column */
+.contact-bg {
+  display: block;
+  width: 100%;
+}
+
+.contact-photo {
+  width: 100%;
+  height: 600px;
+  /* max-height: 820px; */
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 1px solid var(--glass-border);
+}
+
+/* Copy column */
+.contact-copy {
+  min-width: 0; /* prevents grid blowout from long words */
+}
+
+.contact-copy h2 {
   font-size: clamp(28px, 4vw, 50px);
   max-width: 640px;
+  margin: 0 auto;
 }
 
 .contact-name {
   margin-top: 25px;
   font-family: var(--font-display);
   font-size: 20px;
+  text-align: center;
 }
 
 .contact-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 14px;
   margin: var(--sp-6) 0 22px;
 }
@@ -734,16 +764,252 @@
   height: 46px;
 }
 
-.contact-photo {
-  width: 100%;
-  height: auto;
-  max-height: 320px;
-  display: block;
-  margin: var(--sp-5) auto 0;
-  object-fit: contain;
-  border-radius: 24px;
-  border: 1px solid var(--glass-border);
+.contact-copy > p.body-copy {
+  text-align: center;
 }
+@media (max-width: 600px) {
+
+   .contact {
+    padding: var(--sp-12) 0;
+  }
+
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--sp-5);
+    padding: var(--sp-6) var(--sp-5);
+    border-radius: 22px;
+  }
+
+  .contact-bg {
+    order: 1;
+  }
+
+  .contact-copy {
+    order: 2;
+  }
+
+  .contact-photo {
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+
+  .contact-copy h2 {
+    font-size: clamp(22px, 6.5vw, 30px);
+    text-align: center;
+  }
+
+  .contact-name {
+    margin-top: var(--sp-4);
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+    align-items: stretch;
+    margin: var(--sp-5) 0 var(--sp-4);
+  }
+
+  .contact-actions a {
+    width: 100%;
+    justify-content: center;
+    font-size: 12px;
+    padding-left: var(--sp-3);
+    padding-right: var(--sp-3);
+  }
+
+  .contact-copy > p.body-copy {
+    text-align: center;
+  }
+  
+  .site-header {
+    top: 10px;
+    width: 92%;
+    padding: 8px 10px 8px 16px;
+  }
+
+  .brand-image {
+    width: 133px;
+    height: 32px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu-trigger {
+    display: inline-flex;
+  }
+
+  .hero {
+    min-height: 100svh;
+    max-height: 91svh;
+    height: auto;
+  }
+
+  .hero-photo,
+  .hero-photo img {
+    object-position: 61% top;
+  }
+
+  .hero-copy {
+    left: 6%;
+    right: 6%;
+    bottom: 9%;
+  }
+
+  .hero h1 {
+    font-size: clamp(24px, 7vw, 34px);
+    line-height: 1.08;
+  }
+
+  .hero-tagline {
+    font-size: 13px;
+  }
+
+  .zoom-note {
+    display: none;
+  }
+
+  .section-heading {
+    font-size: clamp(24px, 6vw, 32px);
+  }
+
+  .belief {
+    padding: var(--sp-10) 0;
+  }
+
+  .belief h2 {
+    font-size: 29px;
+  }
+
+  .profile-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: var(--sp-4);
+    margin-top: 28px;
+    padding-bottom: 15px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .profile-grid img {
+    width: 140px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  .about-section {
+    padding: 0;
+    /* margin: 0 4%; */
+    margin: var(--sp-6) auto;
+    width: 92%;
+    /* Modifications End */
+    min-height: auto;
+    display: block;
+    border-radius: 18px;
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    height: auto;
+    padding-top: calc(100% * 450 / 1080);
+  }
+
+  .about-grid > div {
+grid-column: 1 / -1;  
+  padding: var(--sp-6) var(--sp-5);
+    border-radius: 0 0 18px 18px;
+    border-top: 1px solid var(--glass-border);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background: oklch(0.12 0 0 / 75%);
+  }
+
+  .education-grid,
+  .services-grid,
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 26px;
+    padding: var(--sp-6) var(--sp-5);
+    border-radius: 22px;
+  }
+
+  .body-copy {
+    font-size: 14px;
+    line-height: 1.85;
+  }
+
+  .education {
+    padding: var(--sp-12) 0;
+  }
+
+  .trust-section {
+    padding: var(--sp-12) 0;
+  }
+
+  .brand-grid {
+    gap: var(--sp-3);
+    margin: var(--sp-6) 0 42px;
+  }
+
+  .celebrity-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .experience {
+    padding: 35px 0 45px;
+  }
+
+  .experience-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    padding: var(--sp-5);
+  }
+
+  .experience-row h3 {
+    font-size: 16px;
+  }
+
+  .portfolio-section {
+    padding: 45px 0;
+  }
+
+  .portfolio-heading {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    margin-bottom: var(--sp-6);
+  }
+
+  .portfolio-heading h2 {
+    font-size: clamp(30px, 9vw, 40px);
+  }
+
+  .portfolio-grid {
+    columns: 2;
+    column-gap: 12px;
+  }
+
+  .portfolio-item {
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }
+
+  .services {
+    padding: var(--sp-12) 0;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+  }
+}
+
 
 /* ==========================================================================
    14. FOOTER
@@ -845,209 +1111,7 @@
   }
 }
 
-@media (max-width: 600px) {
-  .site-header {
-    top: 10px;
-    width: 92%;
-    padding: 8px 10px 8px 16px;
-  }
 
-  .brand-image {
-    width: 133px;
-    height: 32px;
-  }
-
-  .desktop-nav {
-    display: none;
-  }
-
-  .mobile-menu-trigger {
-    display: inline-flex;
-  }
-
-  .hero {
-    min-height: 100svh;
-    max-height: 91svh;
-    height: auto;
-  }
-
-  .hero-photo,
-  .hero-photo img {
-    object-position: 61% top;
-  }
-
-  .hero-copy {
-    left: 6%;
-    right: 6%;
-    bottom: 9%;
-  }
-
-  .hero h1 {
-    font-size: clamp(24px, 7vw, 34px);
-    line-height: 1.08;
-  }
-
-  .hero-tagline {
-    font-size: 13px;
-  }
-
-  .zoom-note {
-    display: none;
-  }
-
-  .section-heading {
-    font-size: clamp(24px, 6vw, 32px);
-  }
-
-  .belief {
-    padding: var(--sp-10) 0;
-  }
-
-  .belief h2 {
-    font-size: 29px;
-  }
-
-  .profile-grid {
-    display: flex;
-    overflow-x: auto;
-    gap: var(--sp-4);
-    margin-top: 28px;
-    padding-bottom: 15px;
-    scroll-snap-type: x mandatory;
-  }
-
-  .profile-grid img {
-    width: 140px;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-  }
-
-  .about-section {
-    padding: 0;
-    margin: 0 4%;
-    min-height: auto;
-    display: block;
-    border-radius: 18px;
-    background-size: 100% auto;
-    background-position: top center;
-    background-repeat: no-repeat;
-  }
-
-  .about-grid {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0;
-    height: auto;
-    padding-top: calc(100% * 450 / 1080);
-  }
-
-  .about-grid > div {
-    grid-column: 1;
-    padding: var(--sp-6) var(--sp-5);
-    border-radius: 0 0 18px 18px;
-    border-top: 1px solid var(--glass-border);
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    background: oklch(0.12 0 0 / 75%);
-  }
-
-  .education-grid,
-  .services-grid,
-  .contact-grid {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 26px;
-    padding: var(--sp-6) var(--sp-5);
-    border-radius: 22px;
-  }
-
-  .body-copy {
-    font-size: 14px;
-    line-height: 1.85;
-  }
-
-  .education {
-    padding: var(--sp-12) 0;
-  }
-
-  .trust-section {
-    padding: var(--sp-12) 0;
-  }
-
-  .brand-grid {
-    gap: var(--sp-3);
-    margin: var(--sp-6) 0 42px;
-  }
-
-  .celebrity-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
-  }
-
-  .experience {
-    padding: 35px 0 45px;
-  }
-
-  .experience-row {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 10px;
-    padding: var(--sp-5);
-  }
-
-  .experience-row h3 {
-    font-size: 16px;
-  }
-
-  .portfolio-section {
-    padding: 45px 0;
-  }
-
-  .portfolio-heading {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 4px;
-    margin-bottom: var(--sp-6);
-  }
-
-  .portfolio-heading h2 {
-    font-size: clamp(30px, 9vw, 40px);
-  }
-
-  .portfolio-grid {
-    columns: 2;
-    column-gap: 12px;
-  }
-
-  .portfolio-item {
-    margin-bottom: 12px;
-    border-radius: 12px;
-  }
-
-  .services {
-    padding: var(--sp-12) 0;
-  }
-
-  .contact {
-    padding: var(--sp-12) 0;
-  }
-
-  .contact-photo {
-    max-width: 100%;
-  }
-
-  .contact-actions {
-    flex-direction: column;
-  }
-
-  .contact-actions a {
-    width: 100%;
-    font-size: 11px;
-    padding-left: var(--sp-3);
-    padding-right: var(--sp-3);
-  }
-
-  .footer-inner {
-    flex-direction: column;
-  }
-}
 
 @media (prefers-reduced-motion: reduce) {
   html {

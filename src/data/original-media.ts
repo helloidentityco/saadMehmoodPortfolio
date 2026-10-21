@@ -134,6 +134,7 @@ import asset00 from "@/assets/f07e248d5b0a632ccf28f4f3bad8571fmob.png";
 import asset001 from "@/assets/evara.png";
 import asset000 from "@/assets/identity.png";
 import asset002 from "@/assets/tyushi.png";
+import asset091 from "@/assets/d38b93ea0635f84444a5107e06e05d0d(2).png"
 
 // f07e248d5b0a632ccf28f4f3bad8571fmob.png
 export const originalMedia = {
@@ -144,6 +145,7 @@ export const originalMedia = {
   about: asset10,
   education: asset13,
   contact: asset91,
+  contactDef: asset091,
   aboutPortrait: asset12,
   contactPortrait: asset92,
   experienceVideo: { src: asset34.url, poster: asset114 },
