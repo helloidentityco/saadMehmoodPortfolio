@@ -119,6 +119,15 @@
   --header-h: 64px;
 }
 
+.lime-heading {
+  color: oklch(0.88 0.29 137);
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);   /* your standard size */
+  font-weight: 700;          /* your standard weight */
+  line-height: 1.16;
+  margin: 0;
+}
+
 .dark {
   --background: oklch(0.129 0.042 264.695);
   --foreground: oklch(0.984 0.003 247.858);
@@ -247,8 +256,8 @@
 
 .subheading {
   font-family: var(--font-display);
-  font-size: clamp(18px, 2.4vw, 25px);
-  font-weight: 600;
+  font-size: clamp(14px, 1.6vw, 18px);   /* was 18–25px */
+  font-weight: 500;  
   margin-top: var(--sp-2);
   line-height: 1.4;
 }
@@ -409,6 +418,11 @@
   flex-direction: column;
   justify-content: center;
   padding: var(--sp-16) 0 70px;
+}
+
+.belief h2,
+.belief .subheading {
+  text-align: left;
 }
 
 .rug-background {

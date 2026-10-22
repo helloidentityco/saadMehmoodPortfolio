@@ -221,7 +221,7 @@ function Index() {
             className="about-grid"
           >
             <div>
-              <h1 style={{ color: "oklch(0.88 0.29 137)"}}>WHO AM I?</h1>
+              <h1 className="lime-heading" >WHO AM I?</h1>
               <p className="body-copy">
                 Digital Marketer &amp; Creative Content Producer with 7+ years of experience leading end to end content
                 production for fashion, healthcare, e-commerce, and corporate brands. Expert in content strategy,
@@ -274,7 +274,7 @@ function Index() {
         </section>
         <section className="trust-section">
           <div className="content-width">
-            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"}}>Celebrities</h2>
+            <h2 className="lime-heading">Celebrities</h2>
             <p className="body-copy">Who Trusted Me for Their Creative Projects</p>
             <div className="celebrity-grid">
               {originalMedia.celebrities.map((src, i) => (
@@ -287,7 +287,7 @@ function Index() {
         <section className="experience">
           <div className="content-width">
             <div className="experience-header">
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"}}>Experience</h2>
+              <h2 className="lime-heading" >Experience</h2>
               <p className="" >Spanning a broad spectrum of industries.</p>
             </div>
             {experience.map((item) => (
@@ -318,10 +318,10 @@ function Index() {
         <section className="portfolio-section" id="portfolio">
           <div className="content-width">
             <div >
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"  }}>Portfolio</h2>
+              <h2 className="lime-heading">Portfolio</h2>
               <h3 style={{ margin: 0 }}>An infinite scrolling experience</h3>
             </div>
-            <div className="portfolio-grid" style={{marginTop:"40px"}}>
+            <div className="portfolio-grid" style={{marginTop:"30px"}}>
               {portfolio.map((item, i) =>
                 item.type === "video" ? (
                   <div className="portfolio-item" key={item.id}>
@@ -367,7 +367,7 @@ function Index() {
         <section className="services" id="services">
           <div className="content-width services-grid">
             <div>
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)" }}>Services I Can Confidently Offer:</h2>
+              <h2 className="lime-heading">Services I Can Confidently Offer:</h2>
             </div>
             <div className="body-copy">
               <p>
@@ -412,8 +412,7 @@ function Index() {
             {/* Copy column */}
             <div className="contact-copy">
               <h2
-                className="section-heading"
-                style={{ textAlign: "center", color: "oklch(0.88 0.29 137)" }}
+                className="lime-heading"
               >
                 Let’s Create Something Meaningful Together
               </h2>
