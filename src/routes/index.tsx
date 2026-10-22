@@ -175,9 +175,9 @@ function Index() {
               Content
               <br />
               Producer
+              <hr />
             </h1>
-            <hr />
-            <p className="hero-tagline" style={{textAlign: "center"}}>
+            <p className="hero-tagline">
               Helping Brands Create
               High Impact Visual Campaigns.
             </p>
@@ -221,9 +221,9 @@ function Index() {
             className="about-grid"
           >
             <div>
-              <h1 style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>WHO AM I?</h1>
+              <h1 style={{ color: "oklch(0.88 0.29 137)"}}>WHO AM I?</h1>
               <p className="body-copy">
-                Digital Marketer, Creative Content Producer &amp; Head of Content with 7+ years of experience leading end to end content
+                Digital Marketer &amp; Creative Content Producer with 7+ years of experience leading end to end content
                 production for fashion, healthcare, e-commerce, and corporate brands. Expert in content strategy,
                 creative direction, video production, and post production supervision. Focused on conversion driven
                 branded content, audience retention, and brand consistency. Experienced in managing international
@@ -238,7 +238,7 @@ function Index() {
           <div className="content-width education-grid">
             <div>
               {/* <p className="section-kicker">am i</p> */}
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>Am I Educated &amp; Continuously Learning Professional?</h2>
+              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)" }}>Am I Educated &amp; Continuously Learning Professional?</h2>
             </div>
             <div className="body-copy education-text">
               <p>
@@ -263,14 +263,18 @@ function Index() {
 
         <section className="trust-section">
           <div className="content-width">
-            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>BRANDS</h2>
+            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"}}>BRANDS</h2>
             <p className="body-copy">That Selected Me to Represent Their Vision</p>
             <div className="brand-grid">
               {originalMedia.brands.map((src, i) => (
                 <img key={src} src={src} alt={`Original client brand ${i + 1}`} loading="lazy" />
               ))}
             </div>
-            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>Celebrities</h2>
+          </div> 
+        </section>
+        <section className="trust-section">
+          <div className="content-width">
+            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"}}>Celebrities</h2>
             <p className="body-copy">Who Trusted Me for Their Creative Projects</p>
             <div className="celebrity-grid">
               {originalMedia.celebrities.map((src, i) => (
@@ -283,8 +287,8 @@ function Index() {
         <section className="experience">
           <div className="content-width">
             <div className="experience-header">
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", textAlign: "center" }}>Experience</h2>
-              <p className="body-copy" style={{ textAlign: "center" }}>Spanning a broad spectrum of industries.</p>
+              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"}}>Experience</h2>
+              <p className="" >Spanning a broad spectrum of industries.</p>
             </div>
             {experience.map((item) => (
               <article className="experience-row" key={item.title}>
@@ -299,7 +303,7 @@ function Index() {
                 </ul>
               </article>
             ))}
-            <video
+            {/* <video
               className="experience-video"
               src={originalMedia.experienceVideo.src}
               poster={originalMedia.experienceVideo.poster}
@@ -307,17 +311,17 @@ function Index() {
               playsInline
               preload="none"
               aria-label="Original experience production video"
-            />
+            /> */}
           </div>
         </section>
 
         <section className="portfolio-section" id="portfolio">
           <div className="content-width">
-            <div style={{ textAlign: "center" }}>
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)" }}>Portfolio</h2>
-              <h3 >An infinite scrolling experience</h3>
+            <div >
+              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"  }}>Portfolio</h2>
+              <h3 style={{ margin: 0 }}>An infinite scrolling experience</h3>
             </div>
-            <div className="portfolio-grid">
+            <div className="portfolio-grid" style={{marginTop:"40px"}}>
               {portfolio.map((item, i) =>
                 item.type === "video" ? (
                   <div className="portfolio-item" key={item.id}>

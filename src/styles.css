@@ -108,6 +108,7 @@
   --sp-6: 24px;
   --sp-8: 32px;
   --sp-10: 40px;
+  --sp-9: 20px;
   --sp-12: 48px;
   --sp-16: 64px;
   --sp-20: 80px;
@@ -224,6 +225,22 @@
   line-height: 1.9;
 }
 
+.body-copy > p {
+  background: rgba(255, 255, 255, 0.02); /* Extremely subtle glass fill */
+  border: 1px solid oklch(0.88 0.29 137 / 0.4); /* 40% opacity for a softer look */
+  border-radius: 8px;
+  padding: 24px; /* Gives the text room to breathe inside the border */
+  box-shadow: 0 4px 20px oklch(0.88 0.29 137 / 0.05); /* Soft ambient aura */
+  transition: all 0.3s ease;
+}
+
+/* Optional: Subtle lift and brighter glow when hovering over a service card */
+.body-copy > p:hover {
+  border-color: oklch(0.88 0.29 137 / 0.8);
+  box-shadow: 0 6px 25px oklch(0.88 0.29 137 / 0.15);
+  transform: translateY(-2px);
+}
+
 .body-copy > * + * {
   margin-top: var(--sp-4);
 }
@@ -306,7 +323,7 @@
   isolation: isolate;
   overflow: hidden;
   min-height: 670px;
-  height: min(820px, 100vh);
+  height: 100vh;
 }
 
 .hero-photo,
@@ -387,6 +404,10 @@
   position: relative;
   overflow: hidden;
   text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: var(--sp-16) 0 70px;
 }
 
@@ -429,7 +450,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  min-height: 460px;
+  min-height: 100svh;
   padding: var(--sp-10);
   /* margin: 0 5%; */
   /* Added  */
@@ -470,6 +491,7 @@
 .education {
   padding: 76px 0;
   background: transparent;
+  
 }
 
 .education-grid {
@@ -498,8 +520,10 @@
    9. TRUST (BRANDS + CELEBRITIES)
    ========================================================================== */
 .trust-section {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
   padding: 90px 0 70px;
-  text-align: center;
 }
 
 .trust-section h2 {
@@ -508,7 +532,7 @@
 
 .brand-grid {
   display: grid;
-  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 14px;
   margin: var(--sp-10) 0 70px;
 }
@@ -547,7 +571,7 @@
 }
 
 .experience-header {
-  margin-bottom: var(--sp-10);
+  margin-bottom: var(--sp-9);
 }
 
 .experience-row {
@@ -606,7 +630,7 @@
   grid-template-columns: minmax(0, 1fr) auto;
   gap: var(--sp-5);
   align-items: end;
-  margin-bottom: var(--sp-10);
+  margin-bottom: var(--sp-9);
 }
 
 .portfolio-heading h2 {
@@ -844,7 +868,7 @@
 
   .hero {
     min-height: 100svh;
-    max-height: 91svh;
+    max-height: 100svh;
     height: auto;
   }
 
@@ -878,6 +902,7 @@
 
   .belief {
     padding: var(--sp-10) 0;
+
   }
 
   .belief h2 {
