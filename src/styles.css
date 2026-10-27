@@ -891,11 +891,13 @@
     object-position: 61% top;
   }
 
-  .hero-copy {
-    left: 6%;
-    right: 6%;
-    bottom: 9%;
-  }
+ .hero-copy {
+  left: 20%;
+  right: 8%;
+  bottom: 9%;
+  text-align: left; 
+  /* Centers the text lines within the shifted container */
+}
 
   .hero h1 {
     font-size: clamp(24px, 7vw, 34px);
