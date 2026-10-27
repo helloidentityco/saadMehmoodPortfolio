@@ -29,16 +29,16 @@ import asset27 from "@/assets/c7e0fc17faf5eabdc0a9b30fc80ec696.png";
 import asset28 from "@/assets/36daff7cb4deb0025f4b48f24b63cfa6.png";
 import asset29 from "@/assets/ce8a901cac696d6db069ae5bff0eebbb.png";
 import asset30 from "@/assets/f3c66e1461d49cdf96db23adb37a9a8c.jpg";
-import asset31 from "@/assets/0760d8d8d25fda5a552828486a0edddf.jpg";
-import asset32 from "@/assets/077de428afe953082fc7546bc3eb9751.jpg";
+import asset31 from "@/assets/0760d8d8d25fda5a552828486a0edddf.png";
+import asset32 from "@/assets/077de428afe953082fc7546bc3eb9751.png";
 import asset33 from "@/assets/56dfe189aef8af969810866b722cfc2d.jpg";
-import asset34 from "@/assets/56c973be6905a403bef819698a589624.mp4.asset.json";
-import asset35 from "@/assets/7488345545193f0b38b6787d4cdcb20f.mp4.asset.json";
+// import asset34 from "@/assets/56c973be6905a403bef819698a589624.mp4.asset.json";
+// import asset35 from "@/assets/7488345545193f0b38b6787d4cdcb20f.mp4.asset.json";
 import asset36 from "@/assets/74f54b861c35f7ac8f8f34b569302fec.mp4";
-import asset37 from "@/assets/3208fedafa7dfc3bae69badfea593681.mp4.asset.json";
-import asset38 from "@/assets/01d8d9a9b6fc1b586f202a000255b9e6.mp4.asset.json";
+// import asset37 from "@/assets/3208fedafa7dfc3bae69badfea593681.mp4.asset.json";
+// import asset38 from "@/assets/01d8d9a9b6fc1b586f202a000255b9e6.mp4.asset.json";
 import asset39 from "@/assets/d8e9812f605b8bfae3aa1b67ff49a64a.mp4";
-import asset40 from "@/assets/0a5c911bad655353f7556eae930b18f4.mp4.asset.json";
+// import asset40 from "@/assets/0a5c911bad655353f7556eae930b18f4.mp4.asset.json";
 import asset41 from "@/assets/6dc66b395f637c9c41a1e0e35fcde6f0.png";
 import asset42 from "@/assets/45e0c921c77f7b934644017e4ea0f9d0.jpg";
 import asset43 from "@/assets/b0aa6a166a2e5c7352de7748c91f7593.png";
@@ -62,17 +62,17 @@ import asset60 from "@/assets/461a5ef4c7285901d03b8835f8520ca6.png";
 import asset61 from "@/assets/123d8aa87dca30d629791ecbe27fb90e.mp4";
 import asset62 from "@/assets/29983c130f93261c437e52fd19267d42.mp4";
 import asset63 from "@/assets/3f9f4dba9afef0bdc5871938e2a6c59a.mp4";
-import asset64 from "@/assets/8bfcdda24efcb0cbeb73d0d3ce798f74.mp4.asset.json";
+// import asset64 from "@/assets/8bfcdda24efcb0cbeb73d0d3ce798f74.mp4.asset.json";
 import asset65 from "@/assets/366a681443d944b62cf33d1ef6ae965a.mp4";
 import asset66 from "@/assets/8fc3d2d0fbf3975c5ec96a0ec78dc94d.mp4";
 import asset67 from "@/assets/5fb279a00ae6fa9507b86988f874e3fd.mp4";
-import asset68 from "@/assets/21ca4ab02b9c16a8ab4a70a7de4a0267.mp4.asset.json";
-import asset69 from "@/assets/d702301cdf82c01867e0f41039da75c0.mp4.asset.json";
+// import asset68 from "@/assets/21ca4ab02b9c16a8ab4a70a7de4a0267.mp4.asset.json";
+// import asset69 from "@/assets/d702301cdf82c01867e0f41039da75c0.mp4.asset.json";
 import asset70 from "@/assets/06a765b03390d9b7a91e80c7eff99894.mp4";
 import asset71 from "@/assets/2e592da9c21518cbbce22bfddeaaa6ee.mp4";
 import asset72 from "@/assets/3e261259ff6dd61374dd6d24675f2b1a.mp4";
 import asset73 from "@/assets/19fe753b25f5e8b0d51850ce7fd349e4.mp4";
-import asset74 from "@/assets/f3d70ced83f9ac95c1131d2897d72424.mp4.asset.json";
+// import asset74 from "@/assets/f3d70ced83f9ac95c1131d2897d72424.mp4.asset.json";
 import asset75 from "@/assets/64b15fec4e7eb85d016323edeedcdf13.mp4";
 import asset76 from "@/assets/31ceb97561ddb15158a0d2da4203f33b.mp4";
 import asset77 from "@/assets/637cfd18b1bb67901ada411ffe4a5615.mp4";
@@ -85,7 +85,7 @@ import asset83 from "@/assets/9d3ca7f8c66e5c8ae8e859ad6dd259e6.mp4";
 import asset84 from "@/assets/e70589886ef38939b9e3a457f14f1119.mp4";
 import asset85 from "@/assets/4d47125d4888d60c89b761f84d550311.mp4";
 import asset86 from "@/assets/7d807a5169786c26102e89bc5ab459c6.mp4";
-import asset87 from "@/assets/5aff3e3889f476904551f7b10908b60a.mp4.asset.json";
+// import asset87 from "@/assets/5aff3e3889f476904551f7b10908b60a.mp4.asset.json";
 import asset88 from "@/assets/8a7632a126d32824c877466335268c82.mp4";
 import asset89 from "@/assets/9ca00d2ae24ea851c2dc8d947f0de3a5.mp4";
 import asset90 from "@/assets/b741b1446f44b8e3fd2919c3705a2729.mp4";
@@ -131,6 +131,57 @@ import asset129 from "@/assets/9b606473886c420a7a9a7076be9ae1eb.jpg";
 import asset130 from "@/assets/3c23884fce31861e23678d34eff8ad28.jpg";
 import asset09 from "@/assets/f07e248d5b0a632ccf28f4f3bad85890.jpeg";
 import asset00 from "@/assets/f07e248d5b0a632ccf28f4f3bad8571fmob.png";
+////////////////////Videos
+import asset0001 from "@/assets/7488345545193f0b38b6787d4cdcb20f1.mp4";
+import asset0002 from "@/assets/7488345545193f0b38b6787d4cdcb20f2.mp4";
+import asset0003 from "@/assets/7488345545193f0b38b6787d4cdcb20f3.mp4";
+import asset0004 from "@/assets/7488345545193f0b38b6787d4cdcb20f4.mp4";
+import asset0005 from "@/assets/7488345545193f0b38b6787d4cdcb20f5.mp4";
+import asset0006 from "@/assets/7488345545193f0b38b6787d4cdcb20f6.mp4";
+import asset0007 from "@/assets/7488345545193f0b38b6787d4cdcb20f7.mp4";
+import asset0008 from "@/assets/7488345545193f0b38b6787d4cdcb20f8.mp4";
+import asset0009 from "@/assets/7488345545193f0b38b6787d4cdcb20f9.mp4";
+//////////////////////Images
+import asset0011 from "@/assets/asset0011.jpeg";
+import asset0012 from "@/assets/asset0012.jpeg";
+import asset0013 from "@/assets/asset0013.jpeg";
+import asset0014 from "@/assets/asset0014.jpeg";
+import asset0015 from "@/assets/asset0015.jpeg";
+import asset0016 from "@/assets/asset0016.jpeg";
+import asset0017 from "@/assets/asset0017.jpeg";
+import asset0018 from "@/assets/asset0018.jpeg";
+import asset0019 from "@/assets/asset0019.jpeg";
+//////////Post Images along videos
+//evara
+import asset0021 from "@/assets/evara11.png";
+import asset0022 from "@/assets/evaraab.png";
+import asset0023 from "@/assets/evaraac.png";
+import asset0024 from "@/assets/evaraad.png";
+///tyushi
+import asset0031 from "@/assets/tyushiab.png";
+import asset0032 from "@/assets/tyushiac.png";
+//tyushi Videos
+import asset1000 from "@/assets/start.mp4";
+import asset1001 from "@/assets/middle.mp4";
+import asset1002 from "@/assets/end.mp4";
+//tyushi video banner
+import asset1003 from "@/assets/start_banner.jpeg";
+import asset1004 from "@/assets/middle_banner.jpeg";
+import asset1005 from "@/assets/end_banner.jpeg";
+
+
+
+
+//identity
+import asset0041 from "@/assets/identityab.png";
+import asset0042 from "@/assets/identityac.png";
+//Remaining Videos
+
+
+
+
+
+
 import asset001 from "@/assets/evara.png";
 import asset000 from "@/assets/identity.png";
 import asset002 from "@/assets/tyushi.png";
@@ -138,6 +189,7 @@ import asset091 from "@/assets/d38b93ea0635f84444a5107e06e05d0d(2).png"
 
 // f07e248d5b0a632ccf28f4f3bad8571fmob.png
 export const originalMedia = {
+
   logo: asset0,
   heroMobile: asset00,
   hero: asset1,
@@ -148,20 +200,43 @@ export const originalMedia = {
   contactDef: asset091,
   aboutPortrait: asset12,
   contactPortrait: asset92,
-  experienceVideo: { src: asset34.url, poster: asset114 },
+  // experienceVideo: { src: asset34.url, poster: asset114 },
   profiles: [asset8, asset7, asset5, asset6, asset9,asset09],
   brands: [asset000,asset001,asset002,asset14, asset15, asset16, asset17, asset18, asset19, asset20, asset21, asset22, asset23, asset24, asset25, asset26, asset27, asset28, asset29],
-  celebrities: [asset30, asset31, asset32, asset33],
+  celebrities: [asset30, asset31, asset32, asset33 ],
 };
 export const portfolio = [
-  
-  { id: "7488345545193f0b38b6787d4cdcb20f.mp4", type: "video" as const, src: asset35.url, poster: asset103, width: 1280, height: 720 },
+// Tyushi new portfolio banner
+  { id: "1000", type: "video" as const, src: asset1000, poster: asset1003, width: 1280, height: 720 },
+  { id: "1001", type: "video" as const, src: asset1001, poster: asset1004, width: 1280, height: 720 },
+  { id: "1002", type: "video" as const, src: asset1002, poster: asset1005, width: 1280, height: 720 },
+    { id: "7488345545193f0b38b6787d4cdcb20f1.mp4", type: "video" as const, src: asset0001, poster: asset0011, width: 1280, height: 720 },
+
+/////////
+  { id: "7488345545193f0b38b6787d4cdcb20f2.mp4", type: "video" as const, src: asset0002, poster: asset0012, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f3.mp4", type: "video" as const, src: asset0003, poster: asset0013, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f4.mp4", type: "video" as const, src: asset0004, poster: asset0014, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f5.mp4", type: "video" as const, src: asset0005, poster: asset0015, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f6.mp4", type: "video" as const, src: asset0006, poster: asset0016, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f7.mp4", type: "video" as const, src: asset0007, poster: asset0017, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f8.mp4", type: "video" as const, src: asset0008, poster: asset0018, width: 1280, height: 720 },
+  { id: "7488345545193f0b38b6787d4cdcb20f9.mp4", type: "video" as const, src: asset0009, poster: asset0019, width: 1280, height: 720 },
+  // { id: "7488345545193f0b38b6787d4cdcb20f.mp4", type: "video" as const, src: asset35.url, poster: asset103, width: 1280, height: 720 },
   { id: "74f54b861c35f7ac8f8f34b569302fec.mp4", type: "video" as const, src: asset36, poster: asset111, width: 1280, height: 720 },
-  { id: "3208fedafa7dfc3bae69badfea593681.mp4", type: "video" as const, src: asset37.url, poster: asset119, width: 640, height: 360 },
-  { id: "01d8d9a9b6fc1b586f202a000255b9e6.mp4", type: "video" as const, src: asset38.url, poster: asset113, width: 1280, height: 720 },
+  // { id: "3208fedafa7dfc3bae69badfea593681.mp4", type: "video" as const, src: asset37.url, poster: asset119, width: 640, height: 360 },
+  // { id: "01d8d9a9b6fc1b586f202a000255b9e6.mp4", type: "video" as const, src: asset38.url, poster: asset113, width: 1280, height: 720 },
   { id: "d8e9812f605b8bfae3aa1b67ff49a64a.mp4", type: "video" as const, src: asset39, poster: asset96, width: 1280, height: 720 },
-  { id: "0a5c911bad655353f7556eae930b18f4.mp4", type: "video" as const, src: asset40.url, poster: asset108, width: 1280, height: 1280 },
+  // { id: "0a5c911bad655353f7556eae930b18f4.mp4", type: "video" as const, src: asset40.url, poster: asset108, width: 1280, height: 1280 },
   { id: "6dc66b395f637c9c41a1e0e35fcde6f0.png", type: "image" as const, src: asset41, poster: undefined, width: 2400, height: 2400 },
+//evara
+  { id: "45e0c921c77f7b934644017e4ea0f9d01.jpg", type: "image" as const, src: asset0022, poster: undefined, width: 1080, height: 1080 },
+  { id: "45e0c921c77f7b934644017e4ea0f9d02.jpg", type: "image" as const, src: asset0023, poster: undefined, width: 1080, height: 1080 },
+//tyushi
+  { id: "45e0c921c77f7b934644017e4ea0f9d04.jpg", type: "image" as const, src: asset0031, poster: undefined, width: 1080, height: 1080 },
+  { id: "45e0c921c77f7b934644017e4ea0f9d05.jpg", type: "image" as const, src: asset0032, poster: undefined, width: 1080, height: 1080 },
+//identity
+  { id: "45e0c921c77f7b934644017e4ea0f9d06.jpg", type: "image" as const, src: asset0041, poster: undefined, width: 1080, height: 1080 },
+  { id: "45e0c921c77f7b934644017e4ea0f9d07.jpg", type: "image" as const, src: asset0042, poster: undefined, width: 1080, height: 1080 },
   { id: "45e0c921c77f7b934644017e4ea0f9d0.jpg", type: "image" as const, src: asset42, poster: undefined, width: 1080, height: 1080 },
   { id: "b0aa6a166a2e5c7352de7748c91f7593.png", type: "image" as const, src: asset43, poster: undefined, width: 1470, height: 1470 },
   { id: "aee4567267e104fc56cf82d23ee85612.jpg", type: "image" as const, src: asset44, poster: undefined, width: 1080, height: 1080 },
@@ -184,17 +259,17 @@ export const portfolio = [
   { id: "123d8aa87dca30d629791ecbe27fb90e.mp4", type: "video" as const, src: asset61, poster: asset121, width: 720, height: 1280 },
   { id: "29983c130f93261c437e52fd19267d42.mp4", type: "video" as const, src: asset62, poster: asset106, width: 720, height: 1280 },
   { id: "3f9f4dba9afef0bdc5871938e2a6c59a.mp4", type: "video" as const, src: asset63, poster: asset112, width: 720, height: 1280 },
-  { id: "8bfcdda24efcb0cbeb73d0d3ce798f74.mp4", type: "video" as const, src: asset64.url, poster: asset105, width: 720, height: 1280 },
+  // { id: "8bfcdda24efcb0cbeb73d0d3ce798f74.mp4", type: "video" as const, src: asset64.url, poster: asset105, width: 720, height: 1280 },
   { id: "366a681443d944b62cf33d1ef6ae965a.mp4", type: "video" as const, src: asset65, poster: asset125, width: 720, height: 1280 },
   { id: "8fc3d2d0fbf3975c5ec96a0ec78dc94d.mp4", type: "video" as const, src: asset66, poster: asset126, width: 720, height: 1280 },
   { id: "5fb279a00ae6fa9507b86988f874e3fd.mp4", type: "video" as const, src: asset67, poster: asset128, width: 720, height: 1280 },
-  { id: "21ca4ab02b9c16a8ab4a70a7de4a0267.mp4", type: "video" as const, src: asset68.url, poster: asset93, width: 720, height: 1280 },
-  { id: "d702301cdf82c01867e0f41039da75c0.mp4", type: "video" as const, src: asset69.url, poster: asset110, width: 720, height: 1280 },
+  // { id: "21ca4ab02b9c16a8ab4a70a7de4a0267.mp4", type: "video" as const, src: asset68.url, poster: asset93, width: 720, height: 1280 },
+  // { id: "d702301cdf82c01867e0f41039da75c0.mp4", type: "video" as const, src: asset69.url, poster: asset110, width: 720, height: 1280 },
   { id: "06a765b03390d9b7a91e80c7eff99894.mp4", type: "video" as const, src: asset70, poster: asset127, width: 720, height: 1280 },
   { id: "2e592da9c21518cbbce22bfddeaaa6ee.mp4", type: "video" as const, src: asset71, poster: asset118, width: 720, height: 1280 },
   { id: "3e261259ff6dd61374dd6d24675f2b1a.mp4", type: "video" as const, src: asset72, poster: asset104, width: 478, height: 850 },
   { id: "19fe753b25f5e8b0d51850ce7fd349e4.mp4", type: "video" as const, src: asset73, poster: asset100, width: 720, height: 1280 },
-  { id: "f3d70ced83f9ac95c1131d2897d72424.mp4", type: "video" as const, src: asset74.url, poster: asset129, width: 720, height: 1280 },
+  // { id: "f3d70ced83f9ac95c1131d2897d72424.mp4", type: "video" as const, src: asset74.url, poster: asset129, width: 720, height: 1280 },
   { id: "64b15fec4e7eb85d016323edeedcdf13.mp4", type: "video" as const, src: asset75, poster: asset115, width: 720, height: 1280 },
   { id: "31ceb97561ddb15158a0d2da4203f33b.mp4", type: "video" as const, src: asset76, poster: asset116, width: 720, height: 1280 },
   { id: "637cfd18b1bb67901ada411ffe4a5615.mp4", type: "video" as const, src: asset77, poster: asset95, width: 720, height: 1280 },
@@ -207,7 +282,7 @@ export const portfolio = [
   { id: "e70589886ef38939b9e3a457f14f1119.mp4", type: "video" as const, src: asset84, poster: asset94, width: 720, height: 1280 },
   { id: "4d47125d4888d60c89b761f84d550311.mp4", type: "video" as const, src: asset85, poster: asset97, width: 720, height: 1280 },
   { id: "7d807a5169786c26102e89bc5ab459c6.mp4", type: "video" as const, src: asset86, poster: asset117, width: 480, height: 852 },
-  { id: "5aff3e3889f476904551f7b10908b60a.mp4", type: "video" as const, src: asset87.url, poster: asset98, width: 720, height: 1280 },
+  // { id: "5aff3e3889f476904551f7b10908b60a.mp4", type: "video" as const, src: asset87.url, poster: asset98, width: 720, height: 1280 },
   { id: "8a7632a126d32824c877466335268c82.mp4", type: "video" as const, src: asset88, poster: asset102, width: 720, height: 1280 },
   { id: "9ca00d2ae24ea851c2dc8d947f0de3a5.mp4", type: "video" as const, src: asset89, poster: asset122, width: 720, height: 1280 },
   { id: "b741b1446f44b8e3fd2919c3705a2729.mp4", type: "video" as const, src: asset90, poster: asset107, width: 720, height: 1280 },

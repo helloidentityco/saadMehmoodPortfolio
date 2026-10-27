@@ -7,7 +7,7 @@ import { originalMedia, portfolio } from "@/data/original-media";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Saad Mehmood — Creative Content Producer & Portfolio" },
+      { title: "Saad Mehmood" },
       {
         name: "description",
         content:
@@ -187,7 +187,7 @@ function Index() {
         <section className="belief">
           <img src={originalMedia.rug} alt="" className="rug-background" loading="lazy" />
           <div className="content-width">
-            <h2 className="section-heading">I Believe Brands</h2>
+            <h2 className="section-heading" style={{fontSize:"36px", fontWeight:"700"}}>I Believe Brands</h2>
             <p className="subheading">Designed to Be Seen, Felt, and Remembered</p>
             <div className="profile-grid" >
               {originalMedia.profiles.map((src, i) => (
@@ -221,7 +221,7 @@ function Index() {
             className="about-grid"
           >
             <div>
-              <h1 className="lime-heading" >WHO AM I?</h1>
+              <h1 className="lime-heading"  style={{fontSize:"38px", fontWeight:"700", textAlign:"center"}}>WHO AM I?</h1>
               <p className="body-copy">
                 Digital Marketer &amp; Creative Content Producer with 7+ years of experience leading end to end content
                 production for fashion, healthcare, e-commerce, and corporate brands. Expert in content strategy,
@@ -238,8 +238,8 @@ function Index() {
           <div className="content-width education-grid">
             <div>
               {/* <p className="section-kicker">am i</p> */}
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)" }}>Am I Educated &amp; Continuously Learning Professional?</h2>
-            </div>
+              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", fontSize:"34px", fontWeight:"700" }}>Am I Educated &amp; Continuously Learning Professional?</h2>
+            </div> 
             <div className="body-copy education-text">
               <p>
                 I completed my Intermediate in Computer Science from Ismail College and my Matriculation in Computer
@@ -263,7 +263,8 @@ function Index() {
 
         <section className="trust-section">
           <div className="content-width">
-            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)"}}>BRANDS</h2>
+            <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)" ,fontSize:"38px", fontWeight:"700" }}>BRANDS</h2>
+            {/* */}
             <p className="body-copy">That Selected Me to Represent Their Vision</p>
             <div className="brand-grid">
               {originalMedia.brands.map((src, i) => (
@@ -274,7 +275,7 @@ function Index() {
         </section>
         <section className="trust-section">
           <div className="content-width">
-            <h2 className="lime-heading">Celebrities</h2>
+            <h2 className="lime-heading" style={{fontSize:"38px", fontWeight:"700" }}>Celebrities</h2>
             <p className="body-copy">Who Trusted Me for Their Creative Projects</p>
             <div className="celebrity-grid">
               {originalMedia.celebrities.map((src, i) => (
@@ -287,7 +288,7 @@ function Index() {
         <section className="experience">
           <div className="content-width">
             <div className="experience-header">
-              <h2 className="lime-heading" >Experience</h2>
+              <h2 className="lime-heading" style={{fontSize:"38px", fontWeight:"700" }}>Experience</h2>
               <p className="" >Spanning a broad spectrum of industries.</p>
             </div>
             {experience.map((item) => (
@@ -317,8 +318,8 @@ function Index() {
 
         <section className="portfolio-section" id="portfolio">
           <div className="content-width">
-            <div >
-              <h2 className="lime-heading">Portfolio</h2>
+            <div>
+              <h2 className="lime-heading" style={{fontSize:"40px", fontWeight:"700" }}>Portfolio</h2>
               <h3 style={{ margin: 0 }}>An infinite scrolling experience</h3>
             </div>
             <div className="portfolio-grid" style={{marginTop:"30px"}}>
@@ -367,7 +368,7 @@ function Index() {
         <section className="services" id="services">
           <div className="content-width services-grid">
             <div>
-              <h2 className="lime-heading">Services I Can Confidently Offer:</h2>
+              <h2 className="lime-heading" >Services I Can Confidently Offer:</h2>
             </div>
             <div className="body-copy">
               <p>
@@ -412,7 +413,7 @@ function Index() {
             {/* Copy column */}
             <div className="contact-copy">
               <h2
-                className="lime-heading"
+                className="lime-heading" style={{textAlign:"match-parent" }}
               >
                 Let’s Create Something Meaningful Together
               </h2>
