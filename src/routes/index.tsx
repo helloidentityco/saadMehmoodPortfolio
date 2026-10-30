@@ -238,7 +238,9 @@ function Index() {
           <div className="content-width education-grid">
             <div>
               {/* <p className="section-kicker">am i</p> */}
-              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", fontSize:"34px", fontWeight:"700" }}>Am I Educated &amp; Continuously Learning Professional?</h2>
+              <h2 className="section-heading" style={{ color: "oklch(0.88 0.29 137)", fontSize:"34px", fontWeight:"700" }}>Education & Continuous Growth</h2>
+              <img src={originalMedia.education} alt=""  loading="lazy" />
+
             </div> 
             <div className="body-copy education-text">
               <p>
@@ -292,7 +294,7 @@ function Index() {
               <p className="" >Spanning a broad spectrum of industries.</p>
             </div>
             {experience.map((item) => (
-              <article className="experience-row" key={item.title}>
+              <article className="experience-row " key={item.title}>
                 <div>
                   <h3>{item.title}</h3>
                   <p style={{ color: "oklch(0.88 0.29 137)" }}>{item.date}</p>
@@ -367,8 +369,10 @@ function Index() {
 
         <section className="services" id="services">
           <div className="content-width services-grid">
-            <div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
               <h2 className="lime-heading" >Services I Can Confidently Offer:</h2>
+              <img src={originalMedia.services} alt=""  loading="lazy" />
+
             </div>
             <div className="body-copy">
               <p>

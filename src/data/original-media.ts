@@ -12,6 +12,7 @@ import asset10 from "@/assets/da787909daee8353c27544b70dcb96aa.png";
 import asset11 from "@/assets/7e35c085273c6673658a2d922d4efa6d.png";
 import asset12 from "@/assets/94d8dbe265438957305a63321b39871a.png";
 import asset13 from "@/assets/ce93339cbe79afe5702fddef37212999.png";
+// import asset130 from "@/asset/ce93339cbe79afe5702fddef37212999.png";
 import asset14 from "@/assets/189c4baa4bd36e94d40dceefea52760a.png";
 import asset15 from "@/assets/2a24cdf31b7ff0b2ee664411920c28ef.png";
 import asset16 from "@/assets/5aad949f035c520ba7c7d2c20d92c88b.png";
@@ -186,10 +187,12 @@ import asset001 from "@/assets/evara.png";
 import asset000 from "@/assets/identity.png";
 import asset002 from "@/assets/tyushi.png";
 import asset091 from "@/assets/d38b93ea0635f84444a5107e06e05d0d(2).png"
+import asset1010 from "@/assets/services.png";
 
 // f07e248d5b0a632ccf28f4f3bad8571fmob.png
 export const originalMedia = {
 
+  services: asset1010,
   logo: asset0,
   heroMobile: asset00,
   hero: asset1,
